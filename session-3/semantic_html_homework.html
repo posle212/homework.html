@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Practice</title>
+</head>
+<style>
+    #main-heading {
+        color: blue;
+    }
+
+    #main-asaide {
+        color: darkgreen;
+    }
+
+    #about-me-family {
+        background-color: aqua;
+    }
+</style>
+
+<body>
+    <!--  header for the webpage using <header>. -->
+    <header>
+        <h1 id="main-heading">amiko</h1>
+        <p>this is nice</p>
+    </header>
+
+    <nav>
+        <ol>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ol>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Google Crome</h2>
+            <p>Google Chrome is a web browser developed by Google</p>
+            <p>released in 2008. Chrome is the world's most popular web browser today!</p>
+            <figure>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/hi-res-porsche-911-hybrid.jpeg?c=original"
+                    alt="Porsche" style="width:35%">
+                <figcaption> My Porsche, I'll have it soon. </figcaption>
+            </figure>
+        </article>
+
+
+        <article>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+
+            <h1>Working hours </h1>
+            <p> Open <time datetime="time">Time 09:00</time> to <time datetime="">21:00 every weekday</time>
+            </p>
+        </article>
+
+
+        <!-- main-asaide -->
+        <aside>
+            <h1 id="main-asaide">The aside element</h1>
+            <!-- about-me-family -->
+            <h1 id="about-me-family">&gt; My family and I visited The Epcot center this summer. We paid 2600&euro;
+                &trade; &lt; </h1>
+            <p>My family and I visited The Epcot center this summer.</p>
+
+        </aside>
+
+        <div>
+            <section>
+                Section 1
+                <header>
+                    Section 1 header
+                    <footer>
+                        Section 1 footer
+                    </footer>
+                </header>
+            </section>
+
+            <section>
+                <h1>Section 2</h1>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Author: amiran chanidze</p>
+        <a href="https://www.myauto.ge/ka">www.myauto.ge</a>
+    </footer>
+</body>
+
+</html>
