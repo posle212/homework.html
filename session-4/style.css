@@ -1,0 +1,69 @@
+.xxx {
+    background-color: blue;
+}
+
+.batumi212 {
+    padding: 10px;
+}
+
+table {
+    text-align: center;
+}
+
+caption {
+    font-weight: 600;
+    font-size: large;
+}
+
+.argo {
+    background-color: brown;
+}
+
+.next {
+    color: blueviolet;
+}
+
+.nice {
+    border: 5px solid rgb(255, 196, 0);
+}
+
+.new {
+    padding: 8px;
+}
+
+.foni {
+    background-color: #f9f9f9;
+}
+
+.charcho {
+    padding: 15px;
+}
+
+.row {
+    background-color: red;
+}
+
+.table_4{
+    background-color: chartreuse;
+}
+.monday:hover{
+color: chocolate;
+} 
+
+.Tuesday:hover{
+    color: rgb(100, 0, 13);
+}
+
+.Wednesday:hover{
+    color: deeppink;
+}
+.Thursday:hover{
+    color: darkgoldenrod;
+}
+.Saturday:hover{
+    color: darkslateblue;
+}
+
+.mze:hover{
+color: chocolate;
+}
