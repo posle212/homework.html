@@ -5,90 +5,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
 </head>
 
 <body>
-    <style>
-        .content-table {
-            border: border-collapse;
-            margin: 25px;
-            font-size: 2em;
-            min-width: 400px;
-        }
+    
+    
+    <div class="flex-conteiner">
 
-        tr th {
-            padding: 45px 25px;
-        }
-
-
-        tr td {
-            padding: 35px 35px;
-        }
-    </style>
-
-    <table class="content-table" border="1">
-        <thead>
+        <table class="content-table">
+            <thead>
+                <tr>
+                    <th><input type="checkbox"></th>
+                    <th>Name</th>
+                    <th id="Role">Role</th>
+                    <th id="Company">Company</th>
+                    <th id="Location">Location</th>
+                    <th id="Rating">Rating</th>
+                </tr>
+            </thead>
             <tr>
-                <th>Name</th>
-                <th id="Role">Role</th>
-                <th id="Company">Company</th>
-                <th id="Location">Location</th>
-                <th id="Rating">Rating</th>
+                <td><input type="checkbox"></td>
+                <td headers="name">Buzz</td>
+                <td headers="Role">Oven</td>
+                <td headers="Company">Your frined Buzz</td>
+                <td headers="Location">Australia</td>
+                <td>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star not-checked"></span>
+                    <span class="fa fa-star not-checked"></span>
+                    <span class="fa fa-star not-checked"></span>
+                </td>
             </tr>
-        </thead>
-        <tr>
-            <td>Buzz</td>
-            <td headers="Role">Oven</td>
-            <td headers="Company">Your frined Buzz</td>
-            <td headers="Location">Australia</td>
-            <td headers="Rating">Buzz</td>
-        </tr>
-        <tr>
-            <td headers="name">Dustin</td>
-            <td headers="Role">Admin</td>
-            <td headers="Company">Story Ins</td>
-            <td headers="Location">Hong Kong</td>
-            <td headers="Rating">Buzz</td>
-        <tr>
-            <td headers="name">Mark</td>
-            <td headers="Role">User</td>
-            <td headers="Company">Mixpanel</td>
-            <td headers="Location">United Statess of America</td>
-            <td headers="Rating">Buzz</td>
-        </tr>
-        <tr>
-            <td headers="name">Buzz</td>
-            <td headers="Role">Oven</td>
-            <td headers="Company">Your frined Buzz</td>
-            <td headers="Location">Australia</td>
-            <td headers="Rating">Buzz</td>
-        </tr>
-        <tr>
-            <td headers="name">Dustin</td>
-            <td headers="Role">Admin</td>
-            <td headers="Company">Story Ins</td>
-            <td headers="Location">Hong Kong</td>
-            <td headers="Rating">Buzz</td>
-        <tr>
-            <td headers="name">Mark</td>
-            <td headers="Role">User</td>
-            <td headers="Company">Mixpanel</td>
-            <td headers="Location">United Statess of America</td>
-            <td headers="Rating">Buzz</td>
-        </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td headers="name">Dustin</td>
+                <td headers="Role">Admin</td>
+                <td headers="Company">Story Ins</td>
+                <td headers="Location">Hong Kong</td>
+                <td>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star not-checked"></span>
 
+                </td>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td headers="name">Mark</td>
+                <td headers="Role">User</td>
+                <td headers="Company">Mixpanel</td>
+                <td `headers="Location">United Statess of America</td>
+                <td>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td headers="name">Cynthia</td>
+                <td headers="Role">visitor</td>
+                <td headers="Company">shopify</td>
+                <td headers="Location">canada</td>
+                <td>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
 
-
-
-        </tr>
-
-
-
-
-    </table>
-
-
-
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td headers="name">Cynthia</td>
+                <td headers="Role">shopify</td>
+                <td headers="Company">Story Ins</td>
+                <td headers="Location">canada</td>
+                <td>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </td>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td headers="name">Cynthia</td>
+                <td headers="Role">canada</td>
+                <td headers="Company">Mixpanel</td>
+                <td style="margin: 100px;" headers="Location">canada</td>
+                <td>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td headers="name">Cynthia</td>
+                <td headers="Role">canada</td>
+                <td headers="Company">Mixpanel</td>
+                <td style="margin: 100px;" headers="Location">canada</td>
+                <td>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </td>
+            </tr>
+            </tr>
+            </style>
+        </table>
+    </div>
 </body>
 
 </html>
